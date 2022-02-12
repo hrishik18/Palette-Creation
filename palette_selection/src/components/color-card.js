@@ -1,9 +1,19 @@
 import React from 'react'
 
+
 export default function Colorcard1(props) {
-  return (
-    <div>
-     {props.color} 
-    </div>
-  )
+  console.log(props)
+  const {hex,hsv,rgb} = props.color
+    return(
+      <h1>
+        <div>
+          The hex  
+          {hex}
+          {/* HSV
+          {hsv}
+          RGB
+          {rgb} */}
+        </div>
+      </h1>
+    )
 }

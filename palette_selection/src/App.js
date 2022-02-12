@@ -4,10 +4,8 @@ import { ColorPicker1 } from './components/color_picker';
 
 function App() {
   return (
-    <div >
-         <h1>hello</h1>
+    <div>
          <ColorPicker1/>
-         <Colorcard1 color="red"/>
     </div>
   );
 }
